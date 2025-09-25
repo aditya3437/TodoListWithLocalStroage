@@ -1,16 +1,61 @@
-# React + Vite
+# 📝 Todo List with Local Storage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Todo List App** built with **React** that allows users to add, mark complete, and delete tasks.  
+Tasks are stored in the browser's **localStorage**, so your todos remain saved even after refreshing the page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ➕ Add new tasks
+- ✅ Mark tasks as complete/incomplete
+- ❌ Delete tasks
+- 💾 Data persistence using **localStorage**
+- 🎨 Clean and modern UI design
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Demo
+<img width="1918" height="1032" alt="image" src="https://github.com/user-attachments/assets/d64a2fb3-7fcb-4f77-a3c6-9340e12df305" />
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React (useState, useEffect)**
+- **JavaScript (ES6+)**
+- **CSS (inline styling / custom design)**
+- **LocalStorage API**
+
+---
+
+## 📂 Project Structure
+todolist-with-localstorage/
+│-- src/
+│ │-- components/
+│ │ └── TodoList.js
+│ └── App.js
+│-- public/
+│-- package.json
+└-- README.md
+
+## ⚙️ Installation & Setup
+Clone the repository:
+   ```bash
+  git clone https://github.com/aditya3437/TodoListWithLocalStroage.git
+Navigate into the project folder:
+
+bash
+Copy code
+cd TodoListWithLocalStroage
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+
+The app will run at http://localhost:5173/
+ 🎉
